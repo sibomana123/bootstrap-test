@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.menu {
+  display: none;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.bg-img {
+  background-image: url(img/Header\ bg.svg);
+  height: 130vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+@media screen and (min-width: 100px) and (max-width: 767px) {
+  .menu {
+    display: block;
+    color: black;
+  }
+}
